@@ -182,7 +182,7 @@ hr:hover {
 }
 
 .image4 {
-    background-image: url("/img/image4.png");
+    background-image: url("../img/image4.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
