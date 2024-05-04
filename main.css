@@ -114,22 +114,7 @@ hr:hover {
     opacity: 1;
 }
 
-/* .menu-bar2 {
-    width: 15%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #FFFFFF4D;
-    
-}
 
-.menu-bar2 p {
-    font-family: sofia sans;
-    font-size: 0.6rem;
-}
- */
-
-  
 
 
 /* MAIN CONTAINER 1 */
@@ -684,6 +669,10 @@ footer>div {
     .main-container2 {
         grid-template-areas: "box1" "box2";
         width: 100%;
+    }
+
+    .main-container2-innerbox {
+        grid-template-columns: 1fr;
     }
 
 
