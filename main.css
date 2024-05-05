@@ -29,6 +29,7 @@ body {
 section.upper-menu {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 3% 5%;
 }
 .date-time-temp {
@@ -37,15 +38,29 @@ section.upper-menu {
     width: 30%;
     gap: 2%;
 }
+.apps {
+    display: flex;
+    justify-content:end ;
+    align-items: center;
+    width: 30%;
+}
+
+.hamburger {
+    display: none;
+}
 
 .socal-media {
     display: flex;
-    justify-content: end;
     cursor: pointer;
-    width: 30%;
+    
     gap: 2%;
 
 }
+
+
+/* .hamburger {
+    display: none;
+} */
 
 nav {
     display: flex;
@@ -113,6 +128,7 @@ li:hover {
 hr:hover {
     opacity: 1;
 }
+
 
 
 
@@ -261,8 +277,8 @@ hr:hover {
     color: #ffff;
     padding: 0.5%;
     display: block;
-    top: 8%;
-    right: 43%;
+    top: 3%;
+    right: 42%;
 }
 
 .hero2-innercontainer p{
@@ -298,8 +314,8 @@ hr:hover {
     color: #ffff;
     padding: 0.5%;
     display: block;
-    top: 8%;
-    right: 17%;
+    top: 3%;
+    right: 16%;
 
 } 
 
@@ -396,6 +412,7 @@ hr:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* margin-bottom: 5%; */
 }
 
 .main-container2-btn {
@@ -590,6 +607,7 @@ hr:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* margin-bottom: 5%; */
 }
 
 .main-container2-headline2>h2 {
@@ -634,12 +652,22 @@ footer>div {
     .logo {
         width: 100%;
     }
+    
+    .hamburger {
+        display: flex;
+        justify-content: end;
+    }
 
 
 
     .main-container1 {
         grid-template-areas: "hero1 hero1" "hero2 hero3" "hero4 hero4";
-        gap: 1px;
+        margin: 0;
+        gap: 1%;
+        align-items: center;
+        gap: 2%;
+        margin-bottom: 5%;
+        
     }
 
     .hero1 {
@@ -648,14 +676,76 @@ footer>div {
 
     .hero2 {
         min-height: 187.38px;
+        margin-left: 10%;
+      
+       
     }
 
     .hero3 {
         min-height: 187.38px;
+        margin-right: 10%;
+        
+        
     }
 
     .hero4 {
         min-height: 187.38px;
+        margin-left: 5%;
+        margin-right: 5%;
+       
+    }
+
+    .hero1-innercontainer {
+        top : 42%;
+        width: 60%;
+    }
+
+    .hero1-innercontainer h2 {
+        font-size: 1.125rem;
+    }
+
+    .hero2-innercontainer {
+        top: 70%;
+        left: 8%;
+        width: 40%;
+    }
+    .hero2-innercontainer h2 {
+        font-size: 0.75rem;
+    }
+
+    .bussiness-btn2 {
+        top: 58%;
+        right: 80%;
+    }
+
+    .hero3-innercontainer {
+        top: 70%;
+        width: 40%;
+    }
+
+    .bussiness-btn3 {
+        top: 58%;
+        right: 35%;
+    }
+
+    .hero4-innercontainer {
+        bottom: 0;
+        width: 60%;
+        left: 9%;
+    }
+
+    .hero4-innercontainer h2 {
+        font-size: 1rem;
+    }
+
+    .bussiness-btn4 {
+        bottom: 15%;
+        right: 80%;
+    }
+
+
+    .main-container2 {  
+        grid-template-areas: "box1 box1 box2 box2";
     }
 
     .main-container2-innerbox1 {
@@ -663,18 +753,39 @@ footer>div {
     }
 
     .main-container2-headline1 {
-        display: none;
+        margin-left: 5%;
+        width: 100%;
+        margin-top: 5%;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .main-container2 {
         grid-template-areas: "box1" "box2";
         width: 100%;
+        align-items: center ;
+        margin: 0;
     }
 
     .main-container2-innerbox {
         grid-template-columns: 1fr;
     }
 
+   .mc-innerbox2 {
+        margin-left: 5%;
+        margin-right: 5%;
+
+   }
+    .main-container2-box2 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    footer {
+        margin-top: 5%;
+
+    }
+ 
 
 
 }
