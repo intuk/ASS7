@@ -668,23 +668,22 @@ footer>div {
         margin-bottom: 20%;
     }
     
-    /* .one {
+    .one {
         transition: all 100ms ease-in-out;
-        transform: rotate(45deg) translate(35px, -35px);
+        transform: rotate(45deg) translateX(12px);
         
     }
     
     .two {
         transition: all 100ms ease-in-out;
-        transform-origin: center;
         background-color: transparent;
     }
     
     .three {
         transition: all 100ms ease-in-out;
-        transform: rotate(-45deg) translate(35px, -35px);
+        transform: rotate(-45deg) translateX(12px);
         
-    } */
+    }
     
     .line {
         width: 34px;
@@ -701,16 +700,12 @@ footer>div {
         position: absolute;
         z-index: 1;
         background-color: #FFFFFF;
+        border: 1px solid #FFFFFF;
         width: 100%;
         margin: 0;
         
     }
-    .visible * .hamburger .one {
-        transform: rotate(-45deg);
-        margin-bottom: -5px;
-
-    }
-
+  
     
 
     .mobile-tabs {
