@@ -667,24 +667,7 @@ footer>div {
     .one, .two {
         margin-bottom: 20%;
     }
-    
-    /* .one {
-        transition: all 100ms ease-in-out;
-        transform: rotate(45deg) translateX(12px);
-        
-    }
-    
-    .two {
-        transition: all 100ms ease-in-out;
-        background-color: transparent;
-    }
-    
-    .three {
-        transition: all 100ms ease-in-out;
-        transform: rotate(-45deg) translateX(12px);
-        
-    } */
-    
+     
     .line {
         width: 34px;
         height: 2px;
@@ -703,6 +686,20 @@ footer>div {
         border: 1px solid #FFFFFF;
         width: 100%;
         margin: 0;
+        
+    }
+
+    .xlogo .one {
+        transform: rotate(45deg) translateX(12px);
+        
+    }
+    
+    .xlogo .two {     
+        background-color: transparent;
+    }
+    
+    .xlogo .three {
+        transform: rotate(-45deg) translateX(12px);
         
     }
   
