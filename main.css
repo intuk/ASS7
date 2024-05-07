@@ -668,7 +668,7 @@ footer>div {
         margin-bottom: 20%;
     }
     
-    .one {
+    /* .one {
         transition: all 100ms ease-in-out;
         transform: rotate(45deg) translateX(12px);
         
@@ -683,7 +683,7 @@ footer>div {
         transition: all 100ms ease-in-out;
         transform: rotate(-45deg) translateX(12px);
         
-    }
+    } */
     
     .line {
         width: 34px;
